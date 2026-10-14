@@ -1,0 +1,10 @@
+Metric,Baseline,Healthy MPC,Degraded MPC,Maintenance-Aware MPC
+Mean Temperature Error (°C),1.405,0.226,0.317,0.397
+Average Compressor Power (kW),5.226,4.948,4.988,5.039
+Average COP,1.180,1.284,1.262,1.250
+Warning Duration (hours),111,36,51,60
+Critical Duration (hours),27,17,23,21
+Protective Duration (hours),0,0,0,18
+Temperature Improvement (%),reference,83.9,77.4,71.8
+Power Change (%),reference,-5.3,-4.6,-3.6
+COP Improvement (%),reference,+8.8,+6.9,+6.0

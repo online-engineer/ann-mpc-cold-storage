@@ -1,0 +1,9 @@
+# Python requirements (tested with Python 3.11)
+numpy==1.26.4
+pandas==2.1.4
+matplotlib==3.8.2
+
+# MATLAB (not managed by pip — install separately)
+# MATLAB R2024a with the following toolboxes:
+#   - Deep Learning Toolbox (required for feedforwardnet, trainbr)
+#   - Model Predictive Control Toolbox (required for the MPC solver)

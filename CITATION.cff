@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "ann-mpc-cold-storage: Code and figures for the ANN-MPC cold storage paper"
+abstract: >-
+  Code and figures for the paper "ANN-Based Model Predictive Control with
+  Predictive Maintenance for Energy-Efficient Cold Storage Systems". Includes
+  MATLAB scripts that train a 4-4-1 feedforward ANN with Bayesian
+  regularisation, run four MPC simulation scenarios (baseline thermostat,
+  healthy MPC, degraded MPC, maintenance-aware MPC) and generate the 17
+  figures used in the paper, plus a Python generator that produces the
+  168-hour synthetic operating dataset used throughout the study.
+authors:
+  - family-names: Chukwu
+    given-names: Victor Chimaobi
+    email: victorchukwu462@gmail.com
+    affiliation: "Federal University of Technology Owerri, Nigeria"
+  - family-names: Okonkwo
+    given-names: Boniface
+    email: boniface.okonkwo@futo.edu.ng
+    affiliation: "Federal University of Technology Owerri, Nigeria"
+  - family-names: Onyia
+    given-names: Joseph
+    email: joseph.onyia@futo.edu.ng
+    affiliation: "Federal University of Technology Owerri, Nigeria"
+  - family-names: Chilaka
+    given-names: Rosemary Chinomso
+    email: rosemarychinomso55@gmail.com
+    affiliation: "Federal University of Technology Owerri, Nigeria"
+version: "1.0.0"
+date-released: "2026-10-14"
+license: MIT
+keywords:
+  - artificial neural network
+  - model predictive control
+  - predictive maintenance
+  - refrigeration
+  - cold storage
+  - coefficient of performance
+  - MATLAB
+  - simulation
+type: software
+repository-code: "https://github.com/VictorChukwu/ann-mpc-cold-storage"

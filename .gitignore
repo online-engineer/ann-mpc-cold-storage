@@ -1,0 +1,72 @@
+# ============================================================
+# .gitignore for ann-mpc-cold-storage
+# ============================================================
+# The repository publishes only code, figures and documentation.
+# The 168-hour dataset is NOT committed: it is reproduced locally
+# by generate_dataset.py when needed. The lines below block the
+# generated CSV so it is never accidentally committed.
+
+# ---- Generated dataset and workspace artefacts ----
+data/cold_storage_v2.csv
+data/*.csv
+data/*.mat
+data/*.xlsx
+data/*.xls
+data/*raw*
+data/*private*
+data/*confidential*
+data/*backup*
+data/old/
+data/raw/
+data/private/
+data/_to_delete/
+
+# ---- MATLAB workspace and build artefacts ----
+*.mat
+*.asv
+*.m~
+*.autosave
+slprj/
+sccprj/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+venv/
+env/
+.env
+
+# ---- Jupyter notebook outputs (if any notebooks are added later) ----
+# Notebooks checked in should have outputs cleared first.
+*-checkpoint.ipynb
+
+# ---- OS and editor files ----
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# ---- Build / dist ----
+build/
+dist/
+*.egg
+*.whl
+
+# ---- Secrets (should never exist, listed defensively) ----
+.env.local
+.env.*.local
+*.pem
+*.key
+credentials.json
+secrets.yaml
